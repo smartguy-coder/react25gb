@@ -11,8 +11,8 @@ function App() {
         alignItems: "center",
       }}
     >
-      <Count></Count>
-      <Button></Button>
+      <Count />
+      <Button />
     </div>
   );
 }
