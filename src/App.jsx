@@ -13,7 +13,7 @@ function App() {
         alignItems: "center",
       }}
     >
-      <Count number={number} />
+      {number < 3 ? <Count number={number} /> : null}
       <Button setNumber={setNumber} />
     </div>
   );
